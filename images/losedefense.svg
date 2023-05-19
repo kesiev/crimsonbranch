@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 10 10"
+   version="1.1"
+   id="svg1001"
+   sodipodi:docname="losedefense.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1003"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="11.313708"
+     inkscape:cx="9.811107"
+     inkscape:cy="18.340583"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs998" />
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path37796-7-9-4-2"
+       style="display:inline;fill:#191814;fill-opacity:1;stroke:#ff9718;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.29029016,4.2063031 c 0.001718,0.1036507 0.001145,0.2128597 0.004008,0.3151275 -5.3247e-4,0.00382 -0.001718,0.013882 -0.001718,0.023119 C 0.76279914,6.9652524 2.8036547,8.7053538 5.0039465,9.7183427 7.1114061,8.4548705 9.6390614,6.4223176 9.70945,4.5445492 9.746006,3.0903756 9.7339207,1.5902656 9.7457788,0.28677453 8.0394615,0.49216861 6.5352392,1.5352323 5.0002121,1.5752708 c -1.4343655,0 -3.4939451,-1.03918338 -4.74662529,-1.27509042 -0.011664,0.98867152 0.0333999,3.52848552 0.0367034,3.90612272 z"
+       sodipodi:nodetypes="ccccccccc" />
+    <g
+       id="pearlSymbol"
+       transform="matrix(0.98228945,0,0,0.98228945,1.5263731,-134.1165)"
+       style="display:inline;stroke-width:1.01803">
+      <path
+         id="rect859"
+         style="fill:#191814;fill-opacity:1;stroke:#ff9718;stroke-width:0.509017;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 0.906497,137.69275 -1.30224607,1.30225 2.62929677,2.62974 -2.62929677,2.62929 1.30224607,1.30269 2.6297398,-2.62974 2.6292969,2.62974 1.3026888,-1.30269 -2.6297397,-2.62929 2.6297397,-2.62974 -1.3026888,-1.30225 -2.6292969,2.6293 z" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 10 10"
+   version="1.1"
+   id="svg8390"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="special.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8392"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="12.22963"
+     inkscape:cx="30.090853"
+     inkscape:cy="8.8718956"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="specialSmallSymbol" />
+  <defs
+     id="defs8387">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7896">
+      <stop
+         style="stop-color:#9e2413;stop-opacity:1"
+         offset="0"
+         id="stop7892" />
+      <stop
+         style="stop-color:#640f04;stop-opacity:1"
+         offset="1"
+         id="stop7894" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7896"
+       id="radialGradient8569"
+       cx="-41.182396"
+       cy="214.89516"
+       fx="-41.182396"
+       fy="214.89516"
+       r="4.9637399"
+       gradientTransform="matrix(0.49005215,0,0,0.49001107,-21.000874,109.59415)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="specialSmallSymbol"
+       style="display:inline;stroke-width:0.678063"
+       transform="translate(46.182398,-209.89491)">
+      <path
+         style="display:inline;fill:url(#radialGradient8569);stroke:#ff9718;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal;fill-opacity:1;stroke-opacity:1"
+         id="path16097-6"
+         d="m -38.058605,218.01795 -2.109438,-0.67533 -1.014362,1.96979 -1.01434,-1.96979 -2.109465,0.67533 0.67495,-2.10904 -1.968861,-1.01398 1.968861,-1.01402 -0.67495,-2.11103 2.109465,0.67525 1.01434,-1.96769 1.014362,1.96769 2.109438,-0.67525 -0.674924,2.11103 1.968859,1.01402 -1.968859,1.01398 z" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<html>
+<head>
+
+    <title>Dungeons of Crimsonbranch - Translations</title>
+    <meta charset="UTF-8">
+
+    <script src="../js/game/language.js"></script>
+    <script src="../js/game/languages/en.js"></script>
+    <script src="../js/game/languages/it.js"></script>
+
+</head>
+<body onload="onl()"></body>
+<script>
+
+function simplify(line) {
+    let
+        pieces=line.replace(/{/g,"{~").replace(/symbol /g,"symbol-").replace(/glyph /g,"glyph-").replace(/&[a-zA-Z]+;/g," ").split(/[ ,}{]/g),
+        simple=pieces.filter((piece)=>piece&&((piece.substr(0,1)=="~")||(!piece.match(/[^0-9]/)))).sort().join("_");
+    return simple;
+}
+
+function onl() {
+    let
+        englishLanguage=Language.languages.EN,
+        simpleEnglishLanguage={},
+        logs=[];
+    for (let k in englishLanguage)
+        simpleEnglishLanguage[k]=simplify(englishLanguage[k]);
+    for (let k in Language.languages) {
+        let lang=Language.languages[k];
+        for (let j in englishLanguage)
+            if (lang[j] === undefined)
+                logs.push("Language "+k+": Missing key "+j);
+            else {
+                let simple=simplify(lang[j]);
+                if (simple!=simpleEnglishLanguage[j])
+                    logs.push(
+                        "Language "+k+": Unmatching data for key "+j+"<br>"+
+                        "<div style='border:1px solid #000;padding:5px'><p>"+englishLanguage[j]+"</p><p>"+lang[j]+"</p></div>"+
+                        "<div style='border:1px solid #000;padding:5px;font-family:monospace'><p>"+simpleEnglishLanguage[j]+"</p><p>"+simple+"</p></div>"
+                    );
+            }
+        for (let j in lang)
+            if (englishLanguage[j] === undefined)
+                logs.push("Language "+k+": Extra key "+j);
+    }
+    document.write(logs.length ? logs.join("<br>") : "Translations ok.");
+}
+</script>
+</html>
